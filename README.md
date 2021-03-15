@@ -29,7 +29,7 @@ ROH Network of Ontology documentation
 
 This documentation area includes the following files:
 - `0 - OntologySpecification.pdf` - [PDF](https://herculescrue.github.io/GnossDeustoOnto/0%20-%20OntologySpecification.pdf) corresponding to the specification of ROH network on ontologies. Section 2.1 includes the description of the main entities of ROH and the rationale behind their import or definition from scratch.
-- `1- OntologyDocumentation.pdf` - [PDF](https://herculescrue.github.io/GnossDeustoOnto/1-%20OntologyDocumentation.pdf) describing in tabular form, every entity modelled in ROH.
+- `1- OntologyDocumentation.pdf` - [PDF](https://herculescrue.github.io/ROH/1-%20OntologyDocumentation.pdf) describing in tabular form, every entity modelled in ROH.
 - `2- CoberturaPreguntasCompetencia.pdf` - [PDF](https://herculescrue.github.io/GnossDeustoOnto/2-%20CoberturaPreguntasCompetencia.pdf) with [competence questions which have been assessed against ROH](https://herculescrue.github.io/GnossDeustoOnto/2-%20CoberturaPreguntasCompetencia.pdf).
 - `3- Ejecución de preguntas de competencia.md`	- [Link](https://github.com/HerculesCRUE/GnossDeustoBackend/tree/master/validation-questions) to page to execute competency questions against ROH
 - `4- Modelo de multilingüismo.md`	- [Markdown document](4-%20Modelo%20de%20multiling%C3%BCismo) explaining how multilinguism is supported in ROH
