@@ -45,21 +45,17 @@ design of the ROH ontology network. Starting in [section 2](#headSection2) with 
 level diagram, the most important entities will be shown. Then, the main
 entities modelled are broken down (sections [section 3](#headSection3) to [section 9](#headSection9)). But, first notice that readers are encouraged to read through the rationale behind the ontology design in [section 1.1](#headSection1-1)
 
-Notice that ROH network of ontologies is divided into 3 main parts. 
-* The generic ontology, named ROH, contains the most important entities and properties to model information in the academic domain. It contains the most important part of the network of ontologies. It covers the academic domain, being agnostic to the country or the research organization whose information wants to be modelled with. 
-* ROHES is a specialization of ROH for the Spanish science and research domain. It includes some additional entities which are only used in the Spanish science and research domain, e.g. rohes:Sexenio or rohes:ProfesorTitularDeEscuelaUniversitaria. 
-* Finally, ROHUM is a specialization to cater with the special modelling needs of University of Murcia. More concretely, a wide range of entities to support the accounting system and be able to model expense types are included, e.g. rohum:ArrendamientosYCanones or rohum:InversionNueva.
+Notice that ROH network of ontologies is divided into 2 main parts. 
+* The generic ontology, core module, contains the most important entities and properties to model information in the academic domain. It contains the central part of the network of ontologies. It covers the academic domain, being agnostic to the country or the research organization whose information wants to be modelled with.
+* A set of vertical modules which include, on one hand, specializations of some academic concepts for a given country domain. For instance, the figure Associate Professor in the Spanish academic domain would be encountered in the vertical module university-HR-es and is assigned the URI http://purl.org/roh/university-hr/es#ProfesorTitularDeUniversida. On the other hand, these vertical modules, include controlled vocabularies, according to SKOS ontology, for different important areas in the academic domain, namely,  geographical locations (geopolitical) , knowledge areas (including concepts for scientific-domains, subject-areas or unesco-codes), classification of project types (project-classification), resource positions in universities (university-HR for Spain, UK or Portugal), controlled vocabulary with all universities in Spain (university-structure) or  some extensions for the Spanish university system (extensions-es).
 
-To incorporate specific modules to the ontology, it is enough to create a new ontology, import the required higher level ontology and create the new classes or properties needed. Both classes and properties can be integrated within the existing hierarchy in the imported ontology. Let's say, for example, that a new university (e.g. University of Castilla La-Mancha) wants to make use of ROH and needs to add a series of positions of its own through which to classify research technicians. To do this, you can import the ROHES ontology, and under `vivo:Position`, in which the hierarchies for the Spanish university system appear, create your own.
+To incorporate specific modules to the ontology, it is enough to create a new ontology, import the required higher level ontology entities and create the new classes or properties needed. Both classes and properties can be integrated within the existing hierarchy in the imported ontology. Let's say, for example, that a new university (e.g. University of Castilla La-Mancha) wants to make use of ROH and needs to add a series of positions of its own through which to classify research technicians. To do this, you can import the core ontology, and under `vivo:Position`, in which the hierarchies for the typical university positions appear, create your own as subclasses.
 
 The automatically generated documentation, through the Widoco tool, for each ontological part is referenced below:
-- Widoco generated documentation for [ROH](https://herculescrue.github.io/GnossDeustoOnto/roh/)
-- Widoco generated documentation for [ROHES](https://herculescrue.github.io/GnossDeustoOnto/rohes/)
-- Widoco generated documentation for [ROHUM](https://herculescrue.github.io/GnossDeustoOnto/rohum/)
+- Widoco generated documentation for [ROH core module](https://herculescrue.github.io/GnossDeustoOnto/roh/)
+- Widoco generated documentation for [ROH vertical modules](https://herculescrue.github.io/GnossDeustoOnto/rohes/)
 
-The following table shows a summary of the
-reused ontologies together with their respective user licenses. All
-reused ontologies have been evaluated for compatibility with their
+The following table shows a summary of the reused ontologies together with their respective user licenses. All reused ontologies have been evaluated for compatibility with their
 import and extension.
 
 | prefix  | Ontology names           |      License                                          | Ontology namespace               |
@@ -74,9 +70,8 @@ import and extension.
 | owl    | OWL Web Ontology Language               |Creative Commons Attribution License 4.0       |<http://www.w3.org/2002/07/owl#>|
 | rdfs    | RDF Schema               |Creative Commons Attribution License 4.0               |<http://www.w3.org/2000/01/rdf-schema#>|
 | roh     | Red de Ontologías Hercules | Creative Commons Attribution License 4.0            |<http://purl.org/roh#>         |
-| rohes    | Red de Ontologías Hércules / Hercules Network of Ontologies, Spanish specialization | Creative Commons Attribution License 4.0            |<http://purl.org/rohes#>         |
-| rohum    | Red de Ontologías Hércules / Hercules Network of Ontologies – University of Murcia Specialization | Creative Commons Attribution License 4.0            |<http://purl.org/rohum#>         |
 | skos    | SKOS Simple Knowledge Organization System RDF Schema | Creative Commons Attribution License 4.0 | <http://www.w3.org/2004/02/skos/core> |
+| terms    | DCMI Metadata Terms | Creative Commons Attribution License 4.0 | <https://www.dublincore.org/specifications/dublin-core/dcmi-terms/> |
 | vcard   | vCard Ontology - for describing People and Organizations | Creative Commons Attribution License 4.0 | <http://purl.org/roh/mirror/vcard#> |
 | vivo    | VIVO Ontology for Researcher Discovery | Creative Commons Attribution License 4.0 | <http://purl.org/roh/mirror/vivo#> |
 
