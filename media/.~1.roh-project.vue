@@ -1,14 +1,14 @@
 <!-- Tufts VUE 3.3.0 concept-map (1.roh-project.vue) 2021-03-15 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/C:/Programming/utilities/VUE/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Mon Mar 15 07:24:39 CET 2021 by dipina on platform Windows 8 6.2 in JVM 1.7.0_21-b11 -->
+<!-- Do Not Remove: Saved date Mon Mar 15 07:25:18 CET 2021 by dipina on platform Windows 8 6.2 in JVM 1.7.0_21-b11 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built October 8 2015 at 1658 by tomadm on Linux 2.6.32-504.23.4.el6.x86_64 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="none" ID="0"
     label="1.roh-project.vue" created="1393354945662" x="0.0" y="0.0"
     width="893.96466" height="683.6229" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1615789480009" size="84892"
+    <resource referenceCreated="1615789518942" size="84892"
         spec="C:\temp\ROH\media\1.roh-project.vue" type="1" xsi:type="URLResource">
         <title>1.roh-project.vue</title>
         <property key="File" value="C:\temp\ROH\media\1.roh-project.vue"/>
@@ -810,16 +810,6 @@
         <point2 x="-231.44293" y="-537.1877"/>
         <ID2 xsi:type="node">226</ID2>
         <ctrlPoint0 x="-272.66104" y="-545.2235" xsi:type="point"/>
-    </child>
-    <child ID="233" label="Nuevo Nodo" layerID="1"
-        created="1615789065025" x="206.53897" y="-540.4235" width="79.0"
-        height="23.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
-        <fillColor>#FFFFFF</fillColor>
-        <strokeColor>#000000</strokeColor>
-        <textColor>#000000</textColor>
-        <font>Arial-plain-12</font>
-        <URIString>http://vue.tufts.edu/rdf/resource/348c185cac138001015a9e8e301787d7</URIString>
-        <shape xsi:type="rectangle"/>
     </child>
     <child ID="234" label="skos:&#xa;Concept" layerID="1"
         created="1615789159738" x="-405.0885" y="-328.29108"

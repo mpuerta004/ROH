@@ -1,14 +1,14 @@
 <!-- Tufts VUE 3.3.0 concept-map (5.roh-research-object.vue) 2021-03-17 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/C:/Programming/utilities/VUE/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Wed Mar 17 08:12:09 CET 2021 by dipina on platform Windows 8 6.2 in JVM 1.7.0_21-b11 -->
+<!-- Do Not Remove: Saved date Wed Mar 17 08:11:47 CET 2021 by dipina on platform Windows 8 6.2 in JVM 1.7.0_21-b11 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built October 8 2015 at 1658 by tomadm on Linux 2.6.32-504.23.4.el6.x86_64 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="none" ID="0"
     label="5.roh-research-object.vue" created="1456932426998" x="0.0"
     y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1615965129453" size="42939"
+    <resource referenceCreated="1615965107901" size="41905"
         spec="C:\temp\ROH\media\5.roh-research-object.vue" type="1" xsi:type="URLResource">
         <title>5.roh-research-object.vue</title>
         <property key="File" value="C:\temp\ROH\media\5.roh-research-object.vue"/>
@@ -694,7 +694,7 @@
         <ctrlPoint0 x="998.0332" y="589.38605" xsi:type="point"/>
     </child>
     <child ID="139"
-        label="Different subclasses of Metric are defined, e.g. PublicationMetric, &#xa;      AuthorMetric"
+        label="Different subclasses of Metric are defined, e.g. PublicationMetric, &#xa;      PhDThesisMetric"
         layerID="1" created="1581505227393" x="239.49988" y="55.386017"
         width="238.0" height="41.0" strokeWidth="0.0" autoSized="false" xsi:type="text">
         <strokeColor>#404040</strokeColor>
@@ -716,13 +716,13 @@
   &lt;body&gt;
     &lt;p style="color: #000000" color="#000000"&gt;
       Different subclasses of Metric are defined, e.g. PublicationMetric, 
-      AuthorMetric
+      PhDThesisMetric
     &lt;/p&gt;
   &lt;/body&gt;
 &lt;/html&gt;
 </richText>
         <label>Different subclasses of Metric are defined, e.g. PublicationMetric, 
-      AuthorMetric</label>
+      PhDThesisMetric</label>
     </child>
     <child ID="140" label="vivo:DateTime&#xa;Value" layerID="1"
         created="1581573446073" x="178.44986" y="303.81738"
