@@ -1,14 +1,14 @@
 <!-- Tufts VUE 3.3.0 concept-map (6.roh-activity.vue) 2021-03-17 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/C:/Programming/utilities/VUE/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Wed Mar 17 19:00:54 CET 2021 by dipina on platform Windows 8 6.2 in JVM 1.7.0_21-b11 -->
+<!-- Do Not Remove: Saved date Wed Mar 17 18:53:46 CET 2021 by dipina on platform Windows 8 6.2 in JVM 1.7.0_21-b11 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built October 8 2015 at 1658 by tomadm on Linux 2.6.32-504.23.4.el6.x86_64 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="none" ID="0"
     label="6.roh-activity.vue" created="1393354945662" x="0.0" y="0.0"
     width="893.96466" height="683.6229" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1616004054437" size="73844"
+    <resource referenceCreated="1616003626653" size="73844"
         spec="C:\temp\ROH\media\6.roh-activity.vue" type="1" xsi:type="URLResource">
         <title>6.roh-activity.vue</title>
         <property key="File" value="C:\temp\ROH\media\6.roh-activity.vue"/>
@@ -29,8 +29,9 @@
         <URIString>http://vue.tufts.edu/rdf/resource/6a822f6380fd5714007fcd7e6f765423</URIString>
         <shape xsi:type="ellipse"/>
     </child>
-    <child ID="55" label="Activity Model 12 March 2021" layerID="1"
-        created="1394030442647" x="-720.64124" y="-698.4955"
+    <child ID="55"
+        label="Activity Model &#xa;      &#xa;    &#xa;    &#xa;      12 March 2021"
+        layerID="1" created="1394030442647" x="-720.64124" y="-698.4955"
         width="829.0" height="56.0" strokeWidth="0.0" autoSized="false" xsi:type="text">
         <strokeColor>#404040</strokeColor>
         <textColor>#000000</textColor>
@@ -40,26 +41,30 @@
   &lt;head&gt;
     &lt;style type="text/css"&gt;
       &lt;!--
-        body { margin-bottom: 0px; font-size: 8; margin-right: 0px; margin-top: 0px; margin-left: 0px; font-family: Arial; color: #000000 }
-        ol { vertical-align: middle; font-size: 8; list-style-position: outside; margin-top: 6; margin-left: 30; font-family: Arial }
-        p { margin-bottom: 0; margin-right: 0; margin-top: 0; margin-left: 0; color: #000000 }
-        ul { vertical-align: middle; font-size: 8; list-style-position: outside; margin-top: 6; margin-left: 30; font-family: Arial }
+        body { margin-right: 0px; margin-left: 0px; font-family: Arial; color: #000000; font-size: 8; margin-top: 0px; margin-bottom: 0px }
+        ol { vertical-align: middle; margin-left: 30; font-family: Arial; font-size: 8; margin-top: 6; list-style-position: outside }
+        p { margin-right: 0; margin-left: 0; color: #000000; margin-top: 0; margin-bottom: 0 }
+        ul { vertical-align: middle; margin-left: 30; font-family: Arial; font-size: 8; margin-top: 6; list-style-position: outside }
       --&gt;
     &lt;/style&gt;
     
   &lt;/head&gt;
   &lt;body&gt;
-    &lt;p style="text-align: center; color: #000000" color="#000000"&gt;
+    &lt;p style="color: #000000; text-align: center" color="#000000"&gt;
       &lt;font style="font-size:24;"&gt;Activity Mode&lt;/font&gt;&lt;font style="font-size:21;"&gt;l 
       &lt;/font&gt;
     &lt;/p&gt;
-    &lt;p style="text-align: center; color: #000000" color="#000000"&gt;
+    &lt;p style="color: #000000; text-align: center" color="#000000"&gt;
       &lt;font style="font-size:21;"&gt;12 March 2021&lt;/font&gt;&lt;br&gt;
     &lt;/p&gt;
   &lt;/body&gt;
 &lt;/html&gt;
 </richText>
-        <label>Activity Model 12 March 2021</label>
+        <label>Activity Model 
+      
+    
+    
+      12 March 2021</label>
     </child>
     <child ID="72" label="roh:Activity " layerID="1"
         created="1394761760307" x="-331.2216" y="-301.1622"
@@ -114,8 +119,8 @@
         <shape xsi:type="ellipse"/>
     </child>
     <child ID="75" label="roh:hasContactInfo" layerID="1"
-        created="1394761980977" x="-422.81424" y="-153.64647"
-        width="109.38797" height="80.42149" strokeWidth="1.0"
+        created="1394761980977" x="-423.31424" y="-153.64647"
+        width="109.88797" height="80.42149" strokeWidth="1.0"
         autoSized="false" controlCount="1" arrowState="2" xsi:type="link">
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
@@ -218,10 +223,10 @@
   &lt;head style="color: #000000" color="#000000"&gt;
     &lt;style type="text/css"&gt;
       &lt;!--
-        body { margin-bottom: 0px; font-size: 21; margin-right: 0px; margin-top: 0px; margin-left: 0px; font-family: Arial; color: #000000 }
-        ol { vertical-align: middle; font-size: 21; list-style-position: outside; margin-top: 6; margin-left: 30; font-family: Arial }
-        p { margin-bottom: 0; margin-right: 0; margin-top: 0; margin-left: 0; color: #000000 }
-        ul { vertical-align: middle; font-size: 21; list-style-position: outside; margin-top: 6; margin-left: 30; font-family: Arial }
+        body { margin-right: 0px; margin-left: 0px; font-family: Arial; color: #000000; font-size: 21; margin-top: 0px; margin-bottom: 0px }
+        ol { vertical-align: middle; margin-left: 30; font-family: Arial; font-size: 21; margin-top: 6; list-style-position: outside }
+        p { margin-right: 0; margin-left: 0; color: #000000; margin-top: 0; margin-bottom: 0 }
+        ul { vertical-align: middle; margin-left: 30; font-family: Arial; font-size: 21; margin-top: 6; list-style-position: outside }
       --&gt;
     &lt;/style&gt;
     
@@ -250,10 +255,10 @@
   &lt;head style="color: #000000" color="#000000"&gt;
     &lt;style type="text/css"&gt;
       &lt;!--
-        body { margin-bottom: 0px; font-size: 21; margin-right: 0px; margin-top: 0px; margin-left: 0px; font-family: Arial; color: #000000 }
-        ol { vertical-align: middle; font-size: 21; list-style-position: outside; margin-top: 6; margin-left: 30; font-family: Arial }
-        p { margin-bottom: 0; margin-right: 0; margin-top: 0; margin-left: 0; color: #000000 }
-        ul { vertical-align: middle; font-size: 21; list-style-position: outside; margin-top: 6; margin-left: 30; font-family: Arial }
+        body { margin-right: 0px; margin-left: 0px; font-family: Arial; color: #000000; font-size: 21; margin-top: 0px; margin-bottom: 0px }
+        ol { vertical-align: middle; margin-left: 30; font-family: Arial; font-size: 21; margin-top: 6; list-style-position: outside }
+        p { margin-right: 0; margin-left: 0; color: #000000; margin-top: 0; margin-bottom: 0 }
+        ul { vertical-align: middle; margin-left: 30; font-family: Arial; font-size: 21; margin-top: 6; list-style-position: outside }
       --&gt;
     &lt;/style&gt;
     
@@ -761,8 +766,8 @@
         <ctrlPoint0 x="199.23822" y="100.34198" xsi:type="point"/>
     </child>
     <child ID="67" label="obo:BFO_0000054&#xa;&quot;realized in&quot;"
-        layerID="97" created="1394759921716" x="-135.09564"
-        y="-157.10165" width="463.38354" height="321.6001"
+        layerID="97" created="1394759921716" x="-145.93065"
+        y="-159.8035" width="474.04926" height="324.30197"
         strokeWidth="1.0" strokeStyle="4" autoSized="false"
         controlCount="1" arrowState="2" xsi:type="link">
         <strokeColor>#A6A6A6</strokeColor>
@@ -770,21 +775,21 @@
         <font>Arial-plain-11</font>
         <URIString>http://vue.tufts.edu/rdf/resource/be2ed36fc0a8000701a0b39bf0c41194</URIString>
         <point1 x="317.36316" y="163.99846"/>
-        <point2 x="-134.59564" y="-156.60165"/>
+        <point2 x="-145.43065" y="-159.3035"/>
         <ID1 xsi:type="node">56</ID1>
         <ID2 xsi:type="node">72</ID2>
         <ctrlPoint0 x="397.3019" y="129.68474" xsi:type="point"/>
     </child>
     <child ID="68" label="obo:BFO_0000055&#xa;&quot;realizes&quot;"
-        layerID="97" created="1394759921716" x="-142.4898"
-        y="-147.29575" width="471.85864" height="351.62018"
+        layerID="97" created="1394759921716" x="-152.37625"
+        y="-150.10718" width="481.5906" height="354.40692"
         strokeWidth="1.0" strokeStyle="4" autoSized="false"
         controlCount="1" arrowState="2" xsi:type="link">
         <strokeColor>#A6A6A6</strokeColor>
         <textColor>#A6A6A6</textColor>
         <font>Arial-plain-11</font>
         <URIString>http://vue.tufts.edu/rdf/resource/be2ed36fc0a8000701a0b39b544d4f91</URIString>
-        <point1 x="-141.9898" y="-146.79575"/>
+        <point1 x="-151.87625" y="-149.60718"/>
         <point2 x="317.7282" y="201.0172"/>
         <ID1 xsi:type="node">72</ID1>
         <ID2 xsi:type="node">56</ID2>
@@ -1271,16 +1276,16 @@
   &lt;head style="color: #000000" color="#000000"&gt;
     &lt;style type="text/css"&gt;
       &lt;!--
-        body { margin-bottom: 0px; font-size: 12; margin-right: 0px; margin-top: 0px; margin-left: 0px; font-family: Arial; color: #000000 }
-        ol { vertical-align: middle; font-size: 12; list-style-position: outside; margin-top: 6; margin-left: 30; font-family: Arial }
-        p { margin-bottom: 0; margin-right: 0; margin-top: 0; margin-left: 0; color: #000000 }
-        ul { vertical-align: middle; font-size: 12; list-style-position: outside; margin-top: 6; margin-left: 30; font-family: Arial }
+        body { margin-right: 0px; margin-left: 0px; font-family: Arial; color: #000000; font-size: 12; margin-top: 0px; margin-bottom: 0px }
+        ol { vertical-align: middle; margin-left: 30; font-family: Arial; font-size: 12; margin-top: 6; list-style-position: outside }
+        p { margin-right: 0; margin-left: 0; color: #000000; margin-top: 0; margin-bottom: 0 }
+        ul { vertical-align: middle; margin-left: 30; font-family: Arial; font-size: 12; margin-top: 6; list-style-position: outside }
       --&gt;
     &lt;/style&gt;
     
   &lt;/head&gt;
   &lt;body&gt;
-    &lt;p style="text-align: center; color: #000000" color="#000000"&gt;
+    &lt;p style="color: #000000; text-align: center" color="#000000"&gt;
       &lt;font color="#4c4c4c"&gt;for VCard modeling see also: 
       https://wiki.duraspace.org/x/mewQAg&lt;/font&gt;
     &lt;/p&gt;
@@ -1362,7 +1367,7 @@
         strokeWidth="0.0" autoSized="false">
         <URIString>http://vue.tufts.edu/rdf/resource/1ec194500a87030d01cd846c35b07cba</URIString>
     </layer>
-    <userZoom>0.9825310489166612</userZoom>
+    <userZoom>1.0</userZoom>
     <userOrigin x="-752.28827" y="-712.4955"/>
     <presentationBackground>#202020</presentationBackground>
     <PathwayList currentPathway="0" revealerIndex="-1">

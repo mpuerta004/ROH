@@ -1,14 +1,14 @@
 <!-- Tufts VUE 3.3.0 concept-map (4.roh-funding.vue) 2021-03-17 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/C:/Programming/utilities/VUE/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Wed Mar 17 07:06:29 CET 2021 by dipina on platform Windows 8 6.2 in JVM 1.7.0_21-b11 -->
+<!-- Do Not Remove: Saved date Wed Mar 17 07:07:03 CET 2021 by dipina on platform Windows 8 6.2 in JVM 1.7.0_21-b11 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built October 8 2015 at 1658 by tomadm on Linux 2.6.32-504.23.4.el6.x86_64 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="none" ID="0"
     label="4.roh-funding.vue" created="1393354945662" x="0.0" y="0.0"
     width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1615961189951" size="56432"
+    <resource referenceCreated="1615961223935" size="57642"
         spec="C:\temp\ROH\media\4.roh-funding.vue" type="1" xsi:type="URLResource">
         <title>4.roh-funding.vue</title>
         <property key="File" value="C:\temp\ROH\media\4.roh-funding.vue"/>
@@ -983,16 +983,18 @@
         <shape xsi:type="ellipse"/>
     </child>
     <child ID="281" label="roh:hasContract" layerID="1"
-        created="1615960633273" x="-434.8515" y="-1075.9279"
-        width="79.0" height="91.0" strokeWidth="1.0" autoSized="false"
-        controlCount="1" arrowState="2" xsi:type="link">
+        created="1615960633273" x="-439.54102" y="-1075.9263"
+        width="79.0" height="101.74591" strokeWidth="1.0"
+        autoSized="false" controlCount="1" arrowState="2" xsi:type="link">
         <strokeColor>#000000</strokeColor>
         <textColor>#4C4C4C</textColor>
         <font>Arial-plain-11</font>
         <URIString>http://vue.tufts.edu/rdf/resource/3ec9cd95ac17f001005e5000c2a2dd4d</URIString>
-        <point1 x="-371.1015" y="-985.42786"/>
-        <point2 x="-398.1015" y="-1075.4279"/>
-        <ctrlPoint0 x="-406.1015" y="-996.42786" xsi:type="point"/>
+        <point1 x="-387.6079" y="-974.68036"/>
+        <point2 x="-408.3532" y="-1075.4263"/>
+        <ID1 xsi:type="node">6</ID1>
+        <ID2 xsi:type="node">280</ID2>
+        <ctrlPoint0 x="-402.1015" y="-996.42786" xsi:type="point"/>
     </child>
     <child ID="289" label="skos:&#xa;Concept" layerID="1"
         created="1615961012819" x="-916.20154" y="-1067.9279"
