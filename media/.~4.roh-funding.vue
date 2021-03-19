@@ -1,14 +1,14 @@
 <!-- Tufts VUE 3.3.0 concept-map (4.roh-funding.vue) 2021-03-17 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/C:/Programming/utilities/VUE/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Wed Mar 17 18:58:32 CET 2021 by dipina on platform Windows 8 6.2 in JVM 1.7.0_21-b11 -->
+<!-- Do Not Remove: Saved date Wed Mar 17 07:07:03 CET 2021 by dipina on platform Windows 8 6.2 in JVM 1.7.0_21-b11 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built October 8 2015 at 1658 by tomadm on Linux 2.6.32-504.23.4.el6.x86_64 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="none" ID="0"
     label="4.roh-funding.vue" created="1393354945662" x="0.0" y="0.0"
     width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1616003912746" size="57724"
+    <resource referenceCreated="1615961223935" size="57642"
         spec="C:\temp\ROH\media\4.roh-funding.vue" type="1" xsi:type="URLResource">
         <title>4.roh-funding.vue</title>
         <property key="File" value="C:\temp\ROH\media\4.roh-funding.vue"/>
@@ -71,43 +71,48 @@
         </child>
         <shape xsi:type="ellipse"/>
     </child>
-    <child ID="55" label="Funding Model 12 March 2021" layerID="1"
-        created="1394030442647" x="-521.1889" y="-1320.9678"
+    <child ID="55"
+        label="Funding Model &#xa;    &#xa;    &#xa;      12 March 2021"
+        layerID="1" created="1394030442647" x="-521.1889" y="-1320.9678"
         width="268.0" height="70.0" strokeWidth="0.0" autoSized="false" xsi:type="text">
         <strokeColor>#404040</strokeColor>
         <textColor>#000000</textColor>
         <font>-plain-14</font>
         <URIString>http://vue.tufts.edu/rdf/resource/92c74fb080fd571400ade1b68581e822</URIString>
         <richText>&lt;html&gt;
-  &lt;head color="#000000" style="color: #000000"&gt;
+  &lt;head style="color: #000000" color="#000000"&gt;
     &lt;style type="text/css"&gt;
       &lt;!--
-        body { margin-left: 0px; color: #000000; font-family: Arial; margin-top: 0px; margin-right: 0px; font-size: 8; margin-bottom: 0px }
-        ol { margin-left: 30; margin-top: 6; font-family: Arial; vertical-align: middle; list-style-position: outside; font-size: 8 }
-        p { margin-left: 0; color: #000000; margin-top: 0; margin-right: 0; margin-bottom: 0 }
-        ul { margin-left: 30; margin-top: 6; font-family: Arial; vertical-align: middle; list-style-position: outside; font-size: 8 }
+        body { font-size: 8; margin-top: 0px; font-family: Arial; margin-left: 0px; color: #000000; margin-right: 0px; margin-bottom: 0px }
+        ol { font-size: 8; margin-top: 6; font-family: Arial; margin-left: 30; list-style-position: outside; vertical-align: middle }
+        p { margin-top: 0; margin-left: 0; color: #000000; margin-right: 0; margin-bottom: 0 }
+        ul { font-size: 8; margin-top: 6; margin-left: 30; font-family: Arial; list-style-position: outside; vertical-align: middle }
       --&gt;
     &lt;/style&gt;
     
   &lt;/head&gt;
   &lt;body&gt;
-    &lt;p color="#000000" style="color: #000000; text-align: center"&gt;
+    &lt;p style="color: #000000; text-align: center" color="#000000"&gt;
       &lt;font style="font-size:24;"&gt;Funding Model &lt;/font&gt;
     &lt;/p&gt;
-    &lt;p color="#000000" style="color: #000000; text-align: center"&gt;
+    &lt;p style="color: #000000; text-align: center" color="#000000"&gt;
       &lt;font style="font-size:24;"&gt;12 March 2021 &lt;/font&gt;
     &lt;/p&gt;
-    &lt;p color="#000000" style="color: #000000; text-align: center"&gt;
+    &lt;p style="color: #000000; text-align: center" color="#000000"&gt;
       
     &lt;/p&gt;
   &lt;/body&gt;
 &lt;/html&gt;
 </richText>
-        <label>Funding Model 12 March 2021</label>
+        <label>Funding Model 
+    
+    
+      12 March 2021</label>
     </child>
-    <child ID="124" label="roh:hasContactInfo" layerID="1"
-        created="1440622167072" x="-670.9806" y="-747.3379"
-        width="109.869446" height="75.12982" strokeWidth="1.0"
+    <child ID="124"
+        label="obo:ARG_2000028&#xa;&quot;has contact info&quot;"
+        layerID="1" created="1440622167072" x="-670.9806" y="-747.3379"
+        width="109.369446" height="75.12982" strokeWidth="1.0"
         autoSized="false" controlCount="1" arrowState="2" xsi:type="link">
         <strokeColor>#000000</strokeColor>
         <textColor>#4C4C4C</textColor>
@@ -130,10 +135,12 @@
         <URIString>http://vue.tufts.edu/rdf/resource/6bd2ad9d0a8703a9013fc0bba14594d7</URIString>
         <shape xsi:type="ellipse"/>
     </child>
-    <child ID="126" label="roh:contactInfoOf" layerID="1"
-        created="1440622167072" x="-762.33325" y="-716.94104"
-        width="94.80493" height="66.98181" strokeWidth="1.0"
-        autoSized="false" controlCount="1" arrowState="2" xsi:type="link">
+    <child ID="126"
+        label="obo:ARG_2000029&#xa;&quot;contact info for&quot;"
+        layerID="1" created="1440622167072" x="-765.33325"
+        y="-716.94104" width="97.80493" height="66.98181"
+        strokeWidth="1.0" autoSized="false" controlCount="1"
+        arrowState="2" xsi:type="link">
         <strokeColor>#000000</strokeColor>
         <textColor>#4C4C4C</textColor>
         <font>Arial-plain-11</font>
@@ -349,19 +356,19 @@
         <font>SansSerif-plain-14</font>
         <URIString>http://vue.tufts.edu/rdf/resource/ff828d4ec0a80499750dfdbfce8b0291</URIString>
         <richText>&lt;html&gt;
-  &lt;head color="#000000" style="color: #000000"&gt;
+  &lt;head style="color: #000000" color="#000000"&gt;
     &lt;style type="text/css"&gt;
       &lt;!--
-        body { margin-left: 0px; color: #000000; font-family: Arial; margin-top: 0px; margin-right: 0px; font-size: 12; margin-bottom: 0px }
-        ol { margin-left: 30; margin-top: 6; font-family: Arial; vertical-align: middle; list-style-position: outside; font-size: 12 }
-        p { margin-left: 0; color: #000000; margin-top: 0; margin-right: 0; margin-bottom: 0 }
-        ul { margin-left: 30; margin-top: 6; font-family: Arial; vertical-align: middle; list-style-position: outside; font-size: 12 }
+        body { font-size: 12; margin-top: 0px; font-family: Arial; margin-left: 0px; color: #000000; margin-right: 0px; margin-bottom: 0px }
+        ol { font-size: 12; margin-top: 6; font-family: Arial; margin-left: 30; list-style-position: outside; vertical-align: middle }
+        p { margin-top: 0; margin-left: 0; color: #000000; margin-right: 0; margin-bottom: 0 }
+        ul { font-size: 12; margin-top: 6; margin-left: 30; font-family: Arial; list-style-position: outside; vertical-align: middle }
       --&gt;
     &lt;/style&gt;
     
   &lt;/head&gt;
   &lt;body&gt;
-    &lt;p color="#000000" style="color: #000000"&gt;
+    &lt;p style="color: #000000" color="#000000"&gt;
       Expressed as a geo uri &amp;quot;geo:25.094190,102.772167&amp;quot;
     &lt;/p&gt;
   &lt;/body&gt;
@@ -458,10 +465,10 @@
   &lt;head&gt;
     &lt;style type="text/css"&gt;
       &lt;!--
-        body { margin-left: 0px; color: #000000; font-family: Arial; margin-top: 0px; margin-right: 0px; font-size: 12; margin-bottom: 0px }
-        ol { margin-left: 30; margin-top: 6; font-family: Arial; vertical-align: middle; list-style-position: outside; font-size: 12 }
-        p { margin-left: 0; color: #000000; margin-top: 0; margin-right: 0; margin-bottom: 0 }
-        ul { margin-left: 30; margin-top: 6; font-family: Arial; vertical-align: middle; list-style-position: outside; font-size: 12 }
+        body { font-size: 12; margin-top: 0px; font-family: Arial; margin-left: 0px; color: #000000; margin-right: 0px; margin-bottom: 0px }
+        ol { font-size: 12; margin-top: 6; font-family: Arial; margin-left: 30; list-style-position: outside; vertical-align: middle }
+        p { margin-top: 0; margin-left: 0; color: #000000; margin-right: 0; margin-bottom: 0 }
+        ul { font-size: 12; margin-top: 6; margin-left: 30; font-family: Arial; list-style-position: outside; vertical-align: middle }
       --&gt;
     &lt;/style&gt;
     
@@ -498,19 +505,19 @@
         <font>SansSerif-plain-14</font>
         <URIString>http://vue.tufts.edu/rdf/resource/afdad9afac102a265de355d5c4515d9c</URIString>
         <richText>&lt;html&gt;
-  &lt;head color="#000000" style="color: #000000"&gt;
+  &lt;head style="color: #000000" color="#000000"&gt;
     &lt;style type="text/css"&gt;
       &lt;!--
-        body { margin-left: 0px; color: #000000; font-family: Arial; margin-top: 0px; margin-right: 0px; font-size: 12; margin-bottom: 0px }
-        ol { margin-left: 30; margin-top: 6; font-family: Arial; vertical-align: middle; list-style-position: outside; font-size: 12 }
-        p { margin-left: 0; color: #000000; margin-top: 0; margin-right: 0; margin-bottom: 0 }
-        ul { margin-left: 30; margin-top: 6; font-family: Arial; vertical-align: middle; list-style-position: outside; font-size: 12 }
+        body { font-size: 12; margin-top: 0px; font-family: Arial; margin-left: 0px; color: #000000; margin-right: 0px; margin-bottom: 0px }
+        ol { font-size: 12; margin-top: 6; font-family: Arial; margin-left: 30; list-style-position: outside; vertical-align: middle }
+        p { margin-top: 0; margin-left: 0; color: #000000; margin-right: 0; margin-bottom: 0 }
+        ul { font-size: 12; margin-top: 6; margin-left: 30; font-family: Arial; list-style-position: outside; vertical-align: middle }
       --&gt;
     &lt;/style&gt;
     
   &lt;/head&gt;
   &lt;body&gt;
-    &lt;p color="#000000" style="color: #000000"&gt;
+    &lt;p style="color: #000000" color="#000000"&gt;
       A Funding is divided into several FundingAmounts, each for a year 
       (complete or the months within that year) and associated to an 
       organization
@@ -564,8 +571,8 @@
         <shape xsi:type="ellipse"/>
     </child>
     <child ID="216" label="obo-ro:BFO_0000051 &#xa;(has part )"
-        layerID="1" created="1476125461310" x="-376.17447" y="-832.0028"
-        width="107.0" height="127.90961" strokeWidth="1.0"
+        layerID="1" created="1476125461310" x="-376.67447" y="-832.0028"
+        width="108.0" height="127.90961" strokeWidth="1.0"
         autoSized="false" controlCount="1" arrowState="2" xsi:type="link">
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
@@ -602,7 +609,7 @@
         <ctrlPoint0 x="-357.70145" y="-1092.5055" xsi:type="point"/>
     </child>
     <child ID="221"
-        label="An Organization is financed through FundingAmounts corresponding to a &#xa;      Funding coming from a FundingSource promoted by Funding Organizations through Funding Program. An Organization can take part in several projects under different roles."
+        label="An Organization is financed through FundingAmounts corresponding to a &#xa;      Funding coming from a FundingSource promoted by Funding Organizations through Funding Program. An Organization can take part in several &#xa;      projects under different roles."
         layerID="1" created="1581400654613" x="-70.982925" y="-697.2732"
         width="252.0" height="108.0" strokeWidth="0.0" autoSized="false" xsi:type="text">
         <strokeColor>#404040</strokeColor>
@@ -610,19 +617,19 @@
         <font>SansSerif-plain-14</font>
         <URIString>http://vue.tufts.edu/rdf/resource/32dc914fc0a8001f01edcd79cab2485d</URIString>
         <richText>&lt;html&gt;
-  &lt;head color="#000000" style="color: #000000"&gt;
+  &lt;head style="color: #000000" color="#000000"&gt;
     &lt;style type="text/css"&gt;
       &lt;!--
-        body { margin-left: 0px; color: #000000; font-family: Arial; margin-top: 0px; margin-right: 0px; font-size: 12; margin-bottom: 0px }
-        ol { margin-left: 30; margin-top: 6; font-family: Arial; vertical-align: middle; list-style-position: outside; font-size: 12 }
-        p { margin-left: 0; color: #000000; margin-top: 0; margin-right: 0; margin-bottom: 0 }
-        ul { margin-left: 30; margin-top: 6; font-family: Arial; vertical-align: middle; list-style-position: outside; font-size: 12 }
+        body { font-size: 12; margin-top: 0px; font-family: Arial; margin-left: 0px; color: #000000; margin-right: 0px; margin-bottom: 0px }
+        ol { font-size: 12; margin-top: 6; font-family: Arial; margin-left: 30; list-style-position: outside; vertical-align: middle }
+        p { margin-top: 0; margin-left: 0; color: #000000; margin-right: 0; margin-bottom: 0 }
+        ul { font-size: 12; margin-top: 6; margin-left: 30; font-family: Arial; list-style-position: outside; vertical-align: middle }
       --&gt;
     &lt;/style&gt;
     
   &lt;/head&gt;
   &lt;body&gt;
-    &lt;p color="#000000" style="color: #000000"&gt;
+    &lt;p style="color: #000000" color="#000000"&gt;
       An Organization is financed through FundingAmounts corresponding to a 
       Funding coming from a FundingSource promoted by Funding Organizations 
       through Funding Program. An Organization can take part in several 
@@ -632,7 +639,8 @@
 &lt;/html&gt;
 </richText>
         <label>An Organization is financed through FundingAmounts corresponding to a 
-      Funding coming from a FundingSource promoted by Funding Organizations through Funding Program. An Organization can take part in several projects under different roles.</label>
+      Funding coming from a FundingSource promoted by Funding Organizations through Funding Program. An Organization can take part in several 
+      projects under different roles.</label>
     </child>
     <child ID="225" label="roh: Funding &#xa;Program" layerID="1"
         created="1581401048029" x="-765.8829" y="-1030.4274"
@@ -765,8 +773,8 @@
         <ctrlPoint0 x="-664.10144" y="-859.041" xsi:type="point"/>
     </child>
     <child ID="249" label="obo-ro:BFO_0000050 (part of)" layerID="1"
-        created="1581408423240" x="-460.98157" y="-834.4645"
-        width="147.0" height="161.14807" strokeWidth="1.0"
+        created="1581408423240" x="-461.48157" y="-834.4645"
+        width="148.0" height="161.14807" strokeWidth="1.0"
         autoSized="false" controlCount="1" arrowState="2" xsi:type="link">
         <strokeColor>#000000</strokeColor>
         <textColor>#4C4C4C</textColor>
@@ -890,19 +898,19 @@
         <font>SansSerif-plain-14</font>
         <URIString>http://vue.tufts.edu/rdf/resource/38f6e324c0a8001f00e56337b0da2254</URIString>
         <richText>&lt;html&gt;
-  &lt;head color="#000000" style="color: #000000"&gt;
+  &lt;head style="color: #000000" color="#000000"&gt;
     &lt;style type="text/css"&gt;
       &lt;!--
-        body { margin-left: 0px; color: #000000; font-family: Arial; margin-top: 0px; margin-right: 0px; font-size: 12; margin-bottom: 0px }
-        ol { margin-left: 30; margin-top: 6; font-family: Arial; vertical-align: middle; list-style-position: outside; font-size: 12 }
-        p { margin-left: 0; color: #000000; margin-top: 0; margin-right: 0; margin-bottom: 0 }
-        ul { margin-left: 30; margin-top: 6; font-family: Arial; vertical-align: middle; list-style-position: outside; font-size: 12 }
+        body { font-size: 12; margin-top: 0px; font-family: Arial; margin-left: 0px; color: #000000; margin-right: 0px; margin-bottom: 0px }
+        ol { font-size: 12; margin-top: 6; font-family: Arial; margin-left: 30; list-style-position: outside; vertical-align: middle }
+        p { margin-top: 0; margin-left: 0; color: #000000; margin-right: 0; margin-bottom: 0 }
+        ul { font-size: 12; margin-top: 6; margin-left: 30; font-family: Arial; list-style-position: outside; vertical-align: middle }
       --&gt;
     &lt;/style&gt;
     
   &lt;/head&gt;
   &lt;body&gt;
-    &lt;p color="#000000" style="color: #000000"&gt;
+    &lt;p style="color: #000000" color="#000000"&gt;
       There are several subclasses of Funding that allow to classify Funding 
       into Grant, Loan, Agreement. Data property roh:publicFunding to indicate 
       public or private nature.
@@ -975,8 +983,8 @@
         <shape xsi:type="ellipse"/>
     </child>
     <child ID="281" label="roh:hasContract" layerID="1"
-        created="1615960633273" x="-439.04102" y="-1075.9263"
-        width="78.0" height="101.74591" strokeWidth="1.0"
+        created="1615960633273" x="-439.54102" y="-1075.9263"
+        width="79.0" height="101.74591" strokeWidth="1.0"
         autoSized="false" controlCount="1" arrowState="2" xsi:type="link">
         <strokeColor>#000000</strokeColor>
         <textColor>#4C4C4C</textColor>
@@ -1010,8 +1018,8 @@
         <shape xsi:type="ellipse"/>
     </child>
     <child ID="291" label="roh:hasFundingProgram&#xa;Classification"
-        layerID="1" created="1615961081266" x="-886.6313" y="-965.92786"
-        width="124.210815" height="48.12793" strokeWidth="1.0"
+        layerID="1" created="1615961081266" x="-887.1313" y="-965.92786"
+        width="124.710815" height="48.12793" strokeWidth="1.0"
         autoSized="false" controlCount="1" arrowState="2" xsi:type="link">
         <strokeColor>#000000</strokeColor>
         <textColor>#4C4C4C</textColor>
@@ -1051,7 +1059,7 @@
         <URIString>http://vue.tufts.edu/rdf/resource/6a822fa280fd5714007fcd7edc120198</URIString>
     </layer>
     <userZoom>1.0</userZoom>
-    <userOrigin x="-962.1015" y="-1421.6824"/>
+    <userOrigin x="-1046.2015" y="-1531.4279"/>
     <presentationBackground>#202020</presentationBackground>
     <PathwayList currentPathway="0" revealerIndex="-1">
         <pathway ID="0" label="Untitled Pathway" created="1393354945644"
