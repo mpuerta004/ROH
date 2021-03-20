@@ -172,27 +172,27 @@ The following table shows the object and data properties associated to vivo:Proj
 **<a name="headSection4"></a>4. Person entity**
 ===========================================
 
-In ROH, there is a foaf:Person entity (see Figura 4) that inherits from foaf:Agent. The specialization of this entity imported from the VIVO ontology already adds some DataType properties of the research domain, but in ROH we also incorporate roh:taxID, roh:ORCID, vivo:researcherId or vivo:scopusId (all of them are subtypes of vivo:identifier, a given person may use or several alternatives of those identifiers) and also several object specific properties of the research domain as &quot;has a Role&quot; (roh:hasRole) in an Organization, &quot;has a CurriculumVitae&quot; (roh:hasCV), &quot;has some Accreditations&quot; (roh:hasAccreditation), &quot;has an Employment Contract&quot; (roh:hasContract), &quot;has some Knowledge Areas&quot; (roh:hasKnowledgeArea) or &quot;has some Roles&quot; (roh:hasRole) in Projects or participates through &quot;bibo:authorList&quot; with Research Objects of subclass bibo:Document. A person can &quot;have different roles&quot; in the Project over time. As a subclass of foaf:Agent inherits some additional object properties such as roh:hasAccreditation or roh:hasContactInfo.
+In ROH, there is a `foaf:Person` entity (see Figura 4) that inherits from `foaf:Agent`. The specialization of this entity imported from the VIVO ontology already adds some DataType properties of the research domain, but in ROH we have also incorporated `roh:taxID`, `roh:ORCID`, `vivo:researcherId` or `vivo:scopusId` (all of them are subtypes of `vivo:identifier`, a given person may use or several alternatives of those identifiers) and also several object specific properties of the research domain as &quot;has a Role&quot; (`roh:hasRole`) in an Organization, &quot;has a CurriculumVitae&quot; (`roh:hasCV`), &quot;has some Accreditations&quot; (`roh:hasAccreditation`), &quot;has an Employment Contract&quot; (`roh:hasContract`), &quot;has some Knowledge Areas&quot; (`roh:hasKnowledgeArea`) or &quot;has some Roles&quot; (`roh:hasRole`) in Projects or participates through `bibo:authorList` with Research Objects of subclass `bibo:Document`. A person can &quot;have different roles&quot; in the Project over time. As a subclass of `foaf:Agent` inherits some additional object properties such as `roh:hasAccreditation` or `roh:hasContactInfo`.
 
-As mentioned above, foaf:Person in ROH is based on FOAF (Friend of a Friend [2], following patterns used in VIVO. That explains why it includes some of the basic FOAF properties such as foaf:name, foaf:nickname, foaf:title, foaf:mbox (note that this in fact an object property), foaf:img (note that this in fact an object property), vivo:description, foaf:firstName and foaf:surname. However, it considers all attributes and links defined in CERIF through the cfPers entity. foaf:Person incorporates the following data properties declared as attributes in cfPers, especially: identifier (vivo:identifier but preferably roh:ORCID), roh:birthdate, foaf:gender, foaf:homepage (note that this in fact an object property), roh:researchLine, vivo:freeTextKeyword. Some important CERIF relationships that have also been adopted: Curriculum Vitae (roh:hasCV) which links foaf:Person with roh:CurriculumVitae, Event (roh:Activity) and Indicator (roh:Accreditation).
+As mentioned above, `foaf:Person` in ROH is based on FOAF (Friend of a Friend [2], following patterns used in VIVO. That explains why it includes some of the basic FOAF properties such as `foaf:name`, `foaf:nickname`, `foaf:title`, `foaf:mbox` (note that this in fact an object property), `foaf:img` (note that this in fact an object property), `vivo:description`, `foaf:firstName` and `foaf:surname`. However, it considers all attributes and links defined in CERIF through the `cfPers` entity. `foaf:Person` incorporates the following data properties declared as attributes in `cfPers`, especially: identifier (`vivo:identifier` but preferably `roh:ORCID`), `roh:birthdate`, `foaf:gender`, `foaf:homepage` (note that this in fact an object property), `roh:researchLine`, `vivo:freeTextKeyword`. Some important CERIF relationships that have also been adopted: Curriculum Vitae (`roh:hasCV`) which links `foaf:Person` with `roh:CurriculumVitae`, Event (`roh:Activity`) and Indicator (`roh:Accreditation`).
 
-Besides, an instance of a foaf:Person is associated to the following entities through object properties:
+Besides, an instance of a `foaf:Person` is associated to the following entities through object properties:
 
-- roh:AuthorMetric, where a researcher may have associated metric values such as h-index or i10 index.
-- roh:AcademicSubject, where a researcher teaches different subjects.
-- vivo:AwardedDegree, where a researcher vivo:relates with an roh:AcademicDegree
-- roh:Accreditation, where a researcher roh:hasAccreditation of different types, e.g. roh:ResearchAccreditation or roh:AcademicAccreditation.
-- roh:Activity, where a researcher roh:participates in diverse activities, e.g. vivo:InvitedTalk or bibo:Conference.
-- skos:Concept is linked through roh:knowledgeAreaOf to a person, indicating the different knowledge areas (roh:KnowledgeArea) a researcher is specialized on.
-- roh:CurriculumVitae, where a researcher roh:hasCV which includes data type properties like roh:cites, roh:factorH or roh:summary
-- bibo:Document, where a researcher through bibo:authorList is participating in a bibo:Document as one of its authors.
-- vcard:Individual, where a researcher obo:hasContactInfo described through ontology vcard.
-- vivo:Position, where a researcher roh:hasPosition usually in an organization linking it to any of the vivo:Position subclasess like vivo:FacultyAdministrativePosition or vivo:FacultyPosition.
-- vivo:PersonExpense, where a researcher may contribute with several expenses for its research activities.
-- roh:ResearchObject, where a researcher is the roh:correspondingAuthor of different subtypes of roh:ResearchObject, e.g. obo-iao:JournalArticle, vivo:ConferencePaper or bibo:Proceedings.
-- roh:Role, where a foaf:Agent may roh:hasRole like vivo:ResearcherRole or vivo:TeacherRole either in a vivo:Project or a foaf:Organization.
-- roh:PersonContract, where a researcher roh:hasContract described according to the attributes corresponding to parent class vivo:Contract.
-- bibo:Thesis, where a researcher is roh:supervisorOf of a bibo:Thesis, concretely, any of its subtypes subclasess like roh:MasterThesis or roh:PhDThesis.
+- `roh:AuthorMetric`, where a researcher may have associated metric values such as h-index or i10 index.
+- `roh:AcademicSubject`, where a researcher may teach different subjects, which is a concept scheme.
+- `vivo:AwardedDegree`, where a researcher `vivo:relates` with an `roh:AcademicDegree`
+- `roh:Accreditation`, where a researcher `roh:hasAccreditation` of different types, e.g. `roh:ResearchAccreditation` or `roh:AcademicAccreditation`.
+- `roh:Activity`, where a researcher `roh:participates` in diverse activities, e.g. `vivo:InvitedTalk` or `bibo:Conference`.
+- `skos:Concept` is linked through `roh:knowledgeAreaOf` to a person, indicating the different knowledge areas (`roh:KnowledgeArea`) a researcher is specialized on.
+- `roh:CurriculumVitae`, where a researcher `roh:hasCV` which includes a data type property like `roh:summary`. A researcher is also bound to author metrics `roh:AuthorMetric` through property `roh:hasMetric`. 
+- `bibo:Document`, where a researcher through `bibo:authorList` is participating in a `bibo:Document` as one of its authors.
+- `vcard:Individual`, where a researcher `roh:hasContactInfo` described through ontology vcard.
+- `vivo:Position`, where a researcher `roh:hasPosition` usually in an organization linking it to any of the `vivo:Position` subclasess like `vivo:FacultyAdministrativePosition` or `vivo:FacultyPosition`.
+- `vivo:PersonExpense`, where a researcher may contribute with several expenses for its research activities.
+- `roh:ResearchObject`, where a researcher is the `roh:correspondingAuthor` of different subtypes of `roh:ResearchObject`, e.g. `obo-iao:JournalArticle`, `vivo:ConferencePaper` or `bibo:Proceedings`.
+- `obo-bfo:BFO_0000023` (Role), where a `foaf:Agent` may `roh:hasRole` like `vivo:ResearcherRole` or `vivo:TeacherRole` either in a `vivo:Project` or a `foaf:Organization`.
+- `roh:PersonContract`, where a researcher `roh:hasContract` described according to the attributes corresponding to parent class `vivo:Contract`.
+- `bibo:Thesis`, where a researcher is `roh:supervisorOf` of a `bibo:Thesis`, concretely, any of its subtypes subclasess like `roh:MasterThesis` or `roh:PhDThesis`.
 
 The following table fully describes the object and data properties defined within the foaf:Person entity in ROH.
 
@@ -224,7 +224,7 @@ Besides, an instance of a foaf:Organization is associated to the following entit
 - foaf:Document, where an organization may be associated to several homepages foaf:homePage
 - gn:Feature through relationship gn:locatedIn, where an organization may be associated a geographical scope.
 - roh:FundingAmount where an organization may receive several funding amounts part of a roh:Funding through roh:grants object property.
-- vcard:Organization, where an organization obo:hasContactInfo described through ontology vcard.
+- vcard:Organization, where an organization roh:hasContactInfo described through ontology vcard.
 - roh:Infrastructure, where an organization may roh:hasInfrastructure, belonging to any of its subclasses, e.g. roh:Equipment or roh:Facility.
 - foaf:Organization, where a foaf:Organization may be linked through vivo:hasSucessorOrganization or vivo:hasPredecessorOrganization with another foaf:Organization or may be part of (obo-ro:BFO\_0000050 (part of)) or include (obo-ro:BFO\_0000051 (has part)) other several foaf:Organization.
 - obo-ero:ERO\_0000005 (Service), where an organization roh:provides several services, e.g. obo-ero:ERO\_0000392 (Storage Service)
