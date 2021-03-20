@@ -237,8 +237,9 @@ Besides, an instance of a foaf:Organization is associated to the following entit
 
 Check the following table for more details on object and data properties for foaf:Organization.
 
-![A picture containing map, text Description automatically
-generated](.//media/3.roh-organization.png)
+![](.//media/2.roh-organization-table.png) 
+
+![](.//media/3.roh-organization.png)
 
 **Figura** **5**. Ontological diagram for entity Organization.
 
