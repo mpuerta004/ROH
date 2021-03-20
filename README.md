@@ -45,8 +45,10 @@ level diagram, the most important entities will be shown. Then, the main
 entities modelled are broken down (sections [section 3](#headSection3) to [section 9](#headSection9)). But, first notice that readers are encouraged to read through the rationale behind the ontology design in [section 1.1](#headSection1-1)
 
 Notice that ROH network of ontologies is divided into 2 main parts. 
-* The generic ontology, core module, contains the most important entities and properties to model information in the academic domain. It contains the central part of the network of ontologies. It covers the academic domain, being agnostic to the country or the research organization whose information wants to be modelled with.
-* A set of vertical modules which include, on one hand, specializations of some academic concepts for a given country domain. For instance, the figure Associate Professor in the Spanish academic domain would be encountered in the vertical module university-HR-es and is assigned the URI http://purl.org/roh/university-hr/es#ProfesorTitularDeUniversida. On the other hand, these vertical modules, include controlled vocabularies, according to SKOS ontology, for different important areas in the academic domain, namely,  geographical locations (geopolitical) , knowledge areas (including concepts for scientific-domains, subject-areas or unesco-codes), classification of project types (project-classification), resource positions in universities (university-HR for Spain, UK or Portugal), controlled vocabulary with all universities in Spain (university-structure) or  some extensions for the Spanish university system (extensions-es).
+- The generic ontology, **core module** , contains the most important entities and properties to model information in the academic domain. It contains the central part of the network of ontologies. It covers the academic domain, being agnostic to the country or the research organization whose information wants to be modelled with.
+- A set of **vertical modules** which include, on one hand, specializations of some academic concepts for a given country domain. For instance, the figure Associate Professor in the Spanish academic domain would be encountered in the vertical module `university-HR-es` and is assigned the URI `http://purl.org/roh/university-hr/es#ProfesorTitularDeUniversidad`. On the other hand, these vertical modules, include controlled vocabularies, according to SKOS ontology, for different important areas in the academic domain, namely, geographical locations (`geopolitical`) , knowledge areas (including concepts for `scientific-domains`, `subject-areas` or `unesco-codes`), classification of project types (`project-classification`), resource positions in universities (`university-HR` for Spain, UK or Portugal), controlled vocabulary with all universities in Spain (`university-structure`) or some extensions for the Spanish university system (extensions-es).
+
+![](.//media/ROH-core-vertical-modules.png)
 
 To incorporate specific modules to the ontology, it is enough to create a new ontology, import the required higher level ontology entities and create the new classes or properties needed. Both classes and properties can be integrated within the existing hierarchy in the imported ontology. Let's say, for example, that a new university (e.g. University of Castilla La-Mancha) wants to make use of ROH and needs to add a series of positions of its own through which to classify research technicians. To do this, you can import the core ontology, and under `vivo:Position`, in which the hierarchies for the typical university positions appear, create your own as subclasses.
 
@@ -57,22 +59,23 @@ The automatically generated documentation, through the Widoco tool, for each ont
 The following table shows a summary of the reused ontologies together with their respective user licenses. All reused ontologies have been evaluated for compatibility with their
 import and extension.
 
-| prefix  | Ontology names           |      License                                          | Ontology namespace               |
-| --------| -------------------------|-------------------------------------------------------|--------------------------------|
-| bibo    | Bibliographic Ontology   | Creative Commons Attribution 1.0  Generic (CC BY 1.0) |<http://purl.org/roh/mirror/bibo#>|
-| foaf    | FOAF (Friend of a Friend)| Creative Commons Attribution License 1.0              |<http://purl.org/roh/mirror/foaf#>    |
-| gn      | Geonames ontology        | Creative Commons Attribution License 3.0              |<http://purl.org/roh/mirror/geonames#> |
-| obo-bfo     | OBO Foundry, Basic Formal Ontology |Creative Commons Attribution License 4.0| <http://purl.org/roh/mirror/obo/bfo#>|
-| obo-ero     | OBO Foundry, eagle-i Research Resource Ontology (ERO) |Creative Commons Attribution License 4.0| <http://purl.org/roh/mirror/obo/ero#>|
-| obo-iao     | OBO Foundry, Information Artifact Ontology |Creative Commons Attribution License 4.0| <http://purl.org/roh/mirror/obo/iao#>|
-| obo-ro     | OBO Foundry, Relations Ontology |Creative Commons Attribution License 4.0| <http://purl.org/roh/mirror/obo/ro#> |
-| owl    | OWL Web Ontology Language               |Creative Commons Attribution License 4.0       |<http://www.w3.org/2002/07/owl#>|
-| rdfs    | RDF Schema               |Creative Commons Attribution License 4.0               |<http://www.w3.org/2000/01/rdf-schema#>|
-| roh     | Red de Ontologías Hercules | Creative Commons Attribution License 4.0            |<http://purl.org/roh#>         |
-| skos    | SKOS Simple Knowledge Organization System RDF Schema | Creative Commons Attribution License 4.0 | <http://www.w3.org/2004/02/skos/core> |
-| terms    | DCMI Metadata Terms | Creative Commons Attribution License 4.0 | <https://www.dublincore.org/specifications/dublin-core/dcmi-terms/> |
-| vcard   | vCard Ontology - for describing People and Organizations | Creative Commons Attribution License 4.0 | <http://purl.org/roh/mirror/vcard#> |
-| vivo    | VIVO Ontology for Researcher Discovery | Creative Commons Attribution License 4.0 | <http://purl.org/roh/mirror/vivo#> |
+| prefix | Ontology names | License | Ontology website |
+| --- | --- | --- | --- |
+| **bibo** | Bibliographic Ontology | Creative Commons Attribution 1.0 Generic (CC BY 1.0) | [http://purl.org/ontology/bibo](http://purl.org/ontology/bibo) |
+| **foaf** | FOAF (Friend of a Friend) Vocabulary Specification | Creative Commons Attribution License 1.0 | [http://xmlns.com/foaf/0.1](http://xmlns.com/foaf/0.1) |
+| **geonames** | Geonames ontology | Creative Commons Attribution License 3.0 | [http://www.geonames.org/ontology#](http://www.geonames.org/ontology) |
+| **obo** | Open Biological and Biomedical Ontology (OBO) | Creative Commons Attribution License 4.0 | [http://purl.obolibrary.org/obo/](http://purl.obolibrary.org/obo/) |
+| **obo-bfo** | OBO Foundry, Basic Formal Ontology | Creative Commons Attribution License 4.0 | http://www.obofoundry.org/ontology/bfo.html |
+| **obo-ero** | OBO Foundry, eagle-i Research Resource Ontology (ERO) | Creative Commons Attribution License 4.0 | https://open.catalyst.harvard.edu/wiki/display/eaglei/Ontology |
+| **obo-iao** | OBO Foundry, Information Artifact Ontology | Creative Commons Attribution License 4.0 | https://github.com/information-artifact-ontology/IAO/ |
+| **obo-ro** | OBO Foundry, Relations Ontology | Creative Commons Attribution License 4.0 | http://www.obofoundry.org/ontology/ro.html
+ |
+| **rdfs** | RDF Schema | Creative Commons Attribution License 4.0 | [http://www.w3.org/2000/01/rdf-schema#](http://www.w3.org/2000/01/rdf-schema) |
+| **roh** | Red de Ontologías Hercules | Creative Commons Attribution License 4.0 | [http://purl.org/roh](http://purl.org/roh) |
+| **skos** | SKOS Simple Knowledge Organization System RDF Schema | Creative Commons Attribution License 4.0 | [http://www.w3.org/2004/02/skos/core#](http://www.w3.org/2004/02/skos/core) |
+| **terms** | DCMI Metadata Terms | Creative Commons Attribution License 4.0 | https://www.dublincore.org/specifications/dublin-core/dcmi-terms/ |
+| **vcard** | vCard Ontology - for describing People and Organizations | Creative Commons Attribution License 4.0 | [https://www.w3.org/2006/vcard/ns#](https://www.w3.org/2006/vcard/ns) |
+| **vivo** | VIVO Ontology for Researcher Discovery | Creative Commons Attribution License 4.0 | [http://vivoweb.org/ontology/core#](http://vivoweb.org/ontology/core) |
 
 ***<a name="headSection1-1"></a>1.1. Design rationale***
 ===========================
@@ -130,40 +133,31 @@ Hércules.
 
 Notice that section 3 of the [ROH Ontology Specification document](https://github.com/HerculesCRUE/GnossDeustoOnto/blob/master/Documentation/0%20-%20OntologySpecification.pdf) includes a detailed discussion on how entities modelled in ROH have been imported and aligned with other existing entities in widely adopted ontologies that have successfully modelled parts of the Academic domain. 
 
-## Modules in ROH network of ontologies
-
-The following table lists all ontologies created, which combine entities defined specifically in our core ontology under prefix roh with those reused from other well-known and extensively adopted ontologies. Notice that ROH network of ontologies is divided into 2 main parts as depicted in the following figure:
-
-- The generic ontology, **core module** , contains the most important entities and properties to model information in the academic domain. It contains the central part of the network of ontologies. It covers the academic domain, being agnostic to the country or the research organization whose information wants to be modelled with.
-- A set of **vertical modules** which include, on one hand, specializations of some academic concepts for a given country domain. For instance, the figure Associate Professor in the Spanish academic domain would be encountered in the vertical module university-HR-es and is assigned the URI http://purl.org/roh/university-hr/es#ProfesorTitularDeUniversidad. On the other hand, these vertical modules, include controlled vocabularies, according to SKOS ontology, for different important areas in the academic domain, namely, geographical locations (geopolitical) , knowledge areas (including concepts for scientific-domains, subject-areas or unesco-codes), classification of project types (project-classification), resource positions in universities (university-HR for Spain, UK or Portugal), controlled vocabulary with all universities in Spain (university-structure) or some extensions for the Spanish university system (extensions-es).
-
-![](.//media/ROH-core-vertical-modules.png)
-
 **Figura**  **2**. Hierarchical module structure of ROH network of ontologies.
 
 
 **<a name="headSection3"></a>3. Project entity**
 ================================================
     
-The main ROH entity is vivo:Project (see Figura 3), a new entity defined within ROH. In ROH, a Project models a collaborative activity in business and science that often involves research or design and is carefully planned to achieve a particular goal. Its configuration is inspired by the swrc:Project and takes into account the data properties of the cerif:Project and vivo:Project. It comprises all those properties and adds some new ones, for example, roh:projectStatus, roh:modality or roh:title.
+The main ROH entity is `vivo:Project` (see Figura 3), a new entity defined within ROH. In ROH, a project models a collaborative activity in business and science that often involves research or design and is carefully planned to achieve a particular goal. Its configuration is inspired by the `swrc:Project` and takes into account the data properties of the `cerif:Project` and `vivo:Project`. It comprises all those properties and adds some new ones, for example, `roh:projectStatus`, `roh:modality` or `roh:title`.
 
-It includes the Data Properties roh:identifier, vivo:abbreviation, vivo:description, roh:title, vivo:freeTextKeyword, roh:modality, roh:foreseenJustificationDate, roh:projectObjective and roh:needsEthicalValidation .
+It includes the Data Properties `roh:identifier`, `vivo:abbreviation`, `vivo:description`, `roh:title`, `vivo:freeTextKeyword`, `roh:modality`, `roh:foreseenJustificationDate`, `roh:projectObjective` and `roh:needsEthicalValidation`.
 
-An vivo:Project includes a property roh:hasKnowledgeArea with allows to associate a project with different instances of knowledge areas, e.g. instances of skos:Concept belonging to roh:UNESCOKnowledgeArea controlled vocabulary or concept scheme. Besides, it allows a project also to be classified (roh:hasProjectCategorization) according the project categories defined in hierarchy defined under the concept scheme roh:ProjectClassification, e.g. http://purl.org/roh/project-classification#Horizon2020. Likewise a project might be associated to the recruitment of a new human resource, in that case roh:hasHRClassification allows to link a project with a roh:HumenResourceClassification. A project may go through different stages, i.e. roh:projectStatus during its lifetime, e.g. roh:Open, roh:ProposalSubmitted, roh:Rejected or roh:Closed.
+An `vivo:Project` includes a property `roh:hasKnowledgeArea` with allows to associate a project with different instances of knowledge areas, e.g. instances of `skos:Concept` belonging to `roh:UNESCOKnowledgeArea` controlled vocabulary or concept scheme. Besides, it allows a project to be classified (`roh:hasProjectCategorization`) according to the project categories defined in a hierarchy defined under the concept scheme `roh:ProjectClassification`, e.g. the concept instance `http://purl.org/roh/project-classification#Horizon2020`. Likewise a project might be associated to the recruitment of a new human resource, in that case `roh:hasHRClassification` allows to link a project with a `roh:HumenResourceClassification`. A project may go through different stages, i.e. `roh:projectStatus` during its lifetime, e.g. `roh:Open`, `roh:ProposalSubmitted`, `roh:Rejected` or `roh:Closed`.
 
-Besides, an instance of a vivo:Project is associated to the following entities through object properties:
+Besides, an instance of a `vivo:Project` is associated to the following entities through object properties:
 
-- roh:Activity is roh:participatedBy a project, describes what activities a project participates in.
-- skos:Concept is linked through roh:knowledgeAreaOf to a project, indicating the topics/concepts a project deals with. A project may be classified according to distinct taxonomies (concept schemes) for roh:ProjectClassification and roh:HRClassification (human resources).
-- roh:Dossier through relationship vivo:relates binds a set of documents, including the proposal, evaluation document, reports and so on with a vivo:Project. A dossier is an administrative file collection in which all assets related to a Project are stored, including the Research Proposal, approval documents, viability plans and so on associated to a project are stored.
-- roh:Fundingroh:supports a vivo:Project, where funding terms:hasPartroh:FundingAmount. A roh:FundingAmountroh:grantsfoaf:Organization and describes the details about the funding associated to a project, in what period and what organization it funds. A roh:FundingSource is roh:promotedBy a vivo:FundingProgram which is roh:promotedBy a vivo:FundingOrganization.foaf:Organization, where different organizations may play different obo-bfo:Rolesin a project, e.g. vivo:MemberRole or vivo:AdministratorRole. Notice that the object property vivo:relates allows to link a foaf:Agent, being it either an Organization or a Person, with an obo-bfo:Role.
-- roh:Justification through relationship vivo:relates binds justifications with a vivo:Project.
-- foaf:Person, where an person may play different obo-bfo:Roles, e.g. vivo:PrincipalInvestigatorRole or vivo:ResearcherRole.
-- vivo:ProjectContract subtype of vivo:Contract, a project may be associated to a contract through relationship roh:hasContract.
-- roh:ProjectExpense is roh:spentBy a project, details allows to associate a project with its expenses.
-- roh:ResearchObject, where a project roh:produces several roh:ResearchObject, where some results of a project might be for example of types bibo:Journal, obo-iao:JournalArticle, or roh:PhDThesis.
+- An `roh:Activity` is `roh:participatedBy` by a project, describes what activities a project participates in.
+- `skos:Concept` is linked through `roh:knowledgeAreaOf` to a project, indicating the topics/concepts a project deals with. A project may be classified according to distinct taxonomies (concept schemes) for roh:`ProjectClassification` and `roh:HRClassification` (human resources).
+- `roh:Dossier` through relationship `vivo:relates` binds a set of documents, including the proposal, evaluation document, reports and so on with a `vivo:Project`. A dossier is an administrative file collection in which all assets related to a project are stored, including the research pProposal, approval documents, viability plans and so on associated to a project are stored.
+- `roh:Funding` through `roh:supports` a `vivo:Project`, where a funding is divided into (through `obo-ro:BFO_0000051 (has part)`) several Funding Amounts (`roh:FundingAmount`). A `roh:FundingAmount` `roh:grants` a `foaf:Organization` and describes the details about the funding associated to a project to given organization, indcluding period and amounts. A `roh:FundingSource` is `roh:promotedBy` a `vivo:FundingProgram` which is `roh:promotedBy` a `vivo:FundingOrganization`. Different organizations (`foaf:Organization`) may play different (`obo-bfo:BFO_0000023`) roles in a project, e.g. `vivo:MemberRole` or `vivo:AdministratorRole`. Notice that the object property `vivo:relates` allows to link a `foaf:Agent`, being it either an Organization or a Person, with a (`obo-bfo:BFO_0000023`) role.
+- `roh:Justification` through relationship `vivo:relates` binds justifications with a `vivo:Project`.
+- `foaf:Person`, where a person may play different (`obo-bfo:BFO_0000023`) roles, e.g. `vivo:PrincipalInvestigatorRole` or `vivo:ResearcherRole`.
+- `vivo:ProjectContract` subtype of `vivo:Contract` allows a project to be associated to a contract through relationship `roh:hasContract`.
+- `roh:ProjectExpense` is `roh:spentBy` a project, details allows to associate a project with its expenses.
+- `roh:ResearchObject`, where a project `roh:produces` several `roh:ResearchObject`, where some results of a project might be for example of types `bibo:Journal`, `obo-iao:JournalArticle`, or `roh:PhDThesis`.
 
-Notice that a vivo:Project may also be part (vivo:hasPart) of another project, e.g. child of a parent project. Besides, every instance of a vivo:Project is time bound by being associated with an instance of vivo:DateTimeInterval and geographically bound to an instance of gn:Feature (through relationship (gn:locatedIn).
+Notice that a `vivo:Project` may also be part (`obo-ro:BFO_0000051`) of another project, e.g. child of a parent project. Besides, every instance of a `vivo:Project` is time bound by being associated with an instance of `vivo:DateTimeInterval` and geographically bound to an instance of `gn:Feature` (through relationship (`gn:locatedIn`).
 
 The following table shows the object and data properties associated to vivo:Project:
 
