@@ -1,17 +1,18 @@
-<!-- Tufts VUE 3.3.0 concept-map (3.roh-organization.vue) 2021-03-17 -->
+<!-- Tufts VUE 3.3.0 concept-map (3.roh-organization.vue) 2021-03-20 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/C:/Programming/utilities/VUE/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Wed Mar 17 18:56:01 CET 2021 by dipina on platform Windows 8 6.2 in JVM 1.7.0_21-b11 -->
+<!-- Do Not Remove: Saved date Sat Mar 20 09:45:49 CET 2021 by dipina on platform Windows 8 6.2 in JVM 1.7.0_21-b11 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built October 8 2015 at 1658 by tomadm on Linux 2.6.32-504.23.4.el6.x86_64 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="none" ID="0"
     label="3.roh-organization.vue" created="1393354945662" x="0.0"
     y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1616003761416" size="43506"
-        spec="C:\temp\ROH\media\3.roh-organization.vue" type="1" xsi:type="URLResource">
+    <resource referenceCreated="1616229949290" size="43414"
+        spec="C:\temp\roh-updated\ROH\media\3.roh-organization.vue"
+        type="1" xsi:type="URLResource">
         <title>3.roh-organization.vue</title>
-        <property key="File" value="C:\temp\ROH\media\3.roh-organization.vue"/>
+        <property key="File" value="C:\temp\roh-updated\ROH\media\3.roh-organization.vue"/>
     </resource>
     <fillColor>#FFFFFF</fillColor>
     <strokeColor>#404040</strokeColor>
@@ -37,8 +38,8 @@
             <URIString>http://vue.tufts.edu/rdf/resource/ff828d48c0a80499750dfdbff8cb176d</URIString>
             <shape xsi:type="rectangle"/>
         </child>
-        <child ID="217" label="roh:description" created="1476125653283"
-            x="56.350006" y="68.100006" width="105.0" height="25.0"
+        <child ID="217" label="vivo:description" created="1476125653283"
+            x="56.350006" y="68.100006" width="109.0" height="25.0"
             strokeWidth="1.0" autoSized="true" xsi:type="node">
             <fillColor>#FFFFFF</fillColor>
             <strokeColor>#000000</strokeColor>
@@ -47,8 +48,8 @@
             <URIString>http://vue.tufts.edu/rdf/resource/affce829ac102a265c627fe18270a06e</URIString>
             <shape xsi:type="rectangle"/>
         </child>
-        <child ID="230" label="foaf:title" created="1581415658834"
-            x="56.350006" y="89.850006" width="61.0" height="25.0"
+        <child ID="230" label="roh:title" created="1581415658834"
+            x="56.350006" y="89.850006" width="58.0" height="25.0"
             strokeWidth="1.0" autoSized="true" xsi:type="node">
             <fillColor>#FFFFFF</fillColor>
             <strokeColor>#000000</strokeColor>
@@ -92,10 +93,10 @@
   &lt;head style="color: #000000" color="#000000"&gt;
     &lt;style type="text/css"&gt;
       &lt;!--
-        body { margin-left: 0px; margin-top: 0px; margin-bottom: 0px; margin-right: 0px; font-family: Arial; color: #000000; font-size: 8 }
-        ol { list-style-position: outside; margin-left: 30; margin-top: 6; vertical-align: middle; font-family: Arial; font-size: 8 }
-        p { margin-left: 0; margin-top: 0; margin-bottom: 0; margin-right: 0; color: #000000 }
-        ul { list-style-position: outside; margin-left: 30; margin-top: 6; vertical-align: middle; font-family: Arial; font-size: 8 }
+        body { font-family: Arial; margin-right: 0px; color: #000000; font-size: 8; margin-bottom: 0px; margin-top: 0px; margin-left: 0px }
+        ol { vertical-align: middle; font-family: Arial; list-style-position: outside; font-size: 8; margin-top: 6; margin-left: 30 }
+        p { margin-right: 0; color: #000000; margin-bottom: 0; margin-top: 0; margin-left: 0 }
+        ul { vertical-align: middle; font-family: Arial; list-style-position: outside; font-size: 8; margin-top: 6; margin-left: 30 }
       --&gt;
     &lt;/style&gt;
     
@@ -117,7 +118,7 @@
     </child>
     <child ID="124" label="roh:hasContactInfo" layerID="1"
         created="1440622167072" x="-550.24054" y="-455.6051"
-        width="120.0166" height="44.18341" strokeWidth="1.0"
+        width="119.5166" height="44.18341" strokeWidth="1.0"
         autoSized="false" controlCount="1" arrowState="2" xsi:type="link">
         <strokeColor>#000000</strokeColor>
         <textColor>#4C4C4C</textColor>
@@ -141,7 +142,7 @@
         <shape xsi:type="ellipse"/>
     </child>
     <child ID="126" label="roh:contactInfoOf" layerID="1"
-        created="1440622167072" x="-579.953" y="-496.05368" width="86.0"
+        created="1440622167072" x="-579.453" y="-496.05368" width="85.0"
         height="46.82669" strokeWidth="1.0" autoSized="false"
         controlCount="1" arrowState="2" xsi:type="link">
         <strokeColor>#000000</strokeColor>
@@ -429,10 +430,10 @@
   &lt;head&gt;
     &lt;style type="text/css"&gt;
       &lt;!--
-        body { margin-left: 0px; margin-top: 0px; margin-bottom: 0px; margin-right: 0px; font-family: Arial; color: #000000; font-size: 12 }
-        ol { list-style-position: outside; margin-left: 30; margin-top: 6; vertical-align: middle; font-family: Arial; font-size: 12 }
-        p { margin-left: 0; margin-top: 0; margin-bottom: 0; margin-right: 0; color: #000000 }
-        ul { list-style-position: outside; margin-left: 30; margin-top: 6; vertical-align: middle; font-family: Arial; font-size: 12 }
+        body { font-family: Arial; margin-right: 0px; color: #000000; font-size: 12; margin-bottom: 0px; margin-top: 0px; margin-left: 0px }
+        ol { vertical-align: middle; font-family: Arial; list-style-position: outside; font-size: 12; margin-top: 6; margin-left: 30 }
+        p { margin-right: 0; color: #000000; margin-bottom: 0; margin-top: 0; margin-left: 0 }
+        ul { vertical-align: middle; font-family: Arial; list-style-position: outside; font-size: 12; margin-top: 6; margin-left: 30 }
       --&gt;
     &lt;/style&gt;
     
@@ -471,10 +472,10 @@
   &lt;head style="color: #000000" color="#000000"&gt;
     &lt;style type="text/css"&gt;
       &lt;!--
-        body { margin-left: 0px; margin-top: 0px; margin-bottom: 0px; margin-right: 0px; font-family: Arial; color: #000000; font-size: 12 }
-        ol { list-style-position: outside; margin-left: 30; margin-top: 6; vertical-align: middle; font-family: Arial; font-size: 12 }
-        p { margin-left: 0; margin-top: 0; margin-bottom: 0; margin-right: 0; color: #000000 }
-        ul { list-style-position: outside; margin-left: 30; margin-top: 6; vertical-align: middle; font-family: Arial; font-size: 12 }
+        body { font-family: Arial; margin-right: 0px; color: #000000; font-size: 12; margin-bottom: 0px; margin-top: 0px; margin-left: 0px }
+        ol { vertical-align: middle; font-family: Arial; list-style-position: outside; font-size: 12; margin-top: 6; margin-left: 30 }
+        p { margin-right: 0; color: #000000; margin-bottom: 0; margin-top: 0; margin-left: 0 }
+        ul { vertical-align: middle; font-family: Arial; list-style-position: outside; font-size: 12; margin-top: 6; margin-left: 30 }
       --&gt;
     &lt;/style&gt;
     
@@ -502,10 +503,10 @@
   &lt;head style="color: #000000" color="#000000"&gt;
     &lt;style type="text/css"&gt;
       &lt;!--
-        body { margin-left: 0px; margin-top: 0px; margin-bottom: 0px; margin-right: 0px; font-family: Arial; color: #000000; font-size: 12 }
-        ol { list-style-position: outside; margin-left: 30; margin-top: 6; vertical-align: middle; font-family: Arial; font-size: 12 }
-        p { margin-left: 0; margin-top: 0; margin-bottom: 0; margin-right: 0; color: #000000 }
-        ul { list-style-position: outside; margin-left: 30; margin-top: 6; vertical-align: middle; font-family: Arial; font-size: 12 }
+        body { font-family: Arial; margin-right: 0px; color: #000000; font-size: 12; margin-bottom: 0px; margin-top: 0px; margin-left: 0px }
+        ol { vertical-align: middle; font-family: Arial; list-style-position: outside; font-size: 12; margin-top: 6; margin-left: 30 }
+        p { margin-right: 0; color: #000000; margin-bottom: 0; margin-top: 0; margin-left: 0 }
+        ul { vertical-align: middle; font-family: Arial; list-style-position: outside; font-size: 12; margin-top: 6; margin-left: 30 }
       --&gt;
     &lt;/style&gt;
     
@@ -559,10 +560,10 @@
   &lt;head style="color: #000000" color="#000000"&gt;
     &lt;style type="text/css"&gt;
       &lt;!--
-        body { margin-left: 0px; margin-top: 0px; margin-bottom: 0px; margin-right: 0px; font-family: Arial; color: #000000; font-size: 12 }
-        ol { list-style-position: outside; margin-left: 30; margin-top: 6; vertical-align: middle; font-family: Arial; font-size: 12 }
-        p { margin-left: 0; margin-top: 0; margin-bottom: 0; margin-right: 0; color: #000000 }
-        ul { list-style-position: outside; margin-left: 30; margin-top: 6; vertical-align: middle; font-family: Arial; font-size: 12 }
+        body { font-family: Arial; margin-right: 0px; color: #000000; font-size: 12; margin-bottom: 0px; margin-top: 0px; margin-left: 0px }
+        ol { vertical-align: middle; font-family: Arial; list-style-position: outside; font-size: 12; margin-top: 6; margin-left: 30 }
+        p { margin-right: 0; color: #000000; margin-bottom: 0; margin-top: 0; margin-left: 0 }
+        ul { vertical-align: middle; font-family: Arial; list-style-position: outside; font-size: 12; margin-top: 6; margin-left: 30 }
       --&gt;
     &lt;/style&gt;
     
@@ -773,7 +774,7 @@
         <URIString>http://vue.tufts.edu/rdf/resource/6a822fa280fd5714007fcd7edc120198</URIString>
     </layer>
     <userZoom>1.25</userZoom>
-    <userOrigin x="-1510.614" y="-1189.4094"/>
+    <userOrigin x="-1168.8455" y="-1237.9023"/>
     <presentationBackground>#202020</presentationBackground>
     <PathwayList currentPathway="0" revealerIndex="-1">
         <pathway ID="0" label="Untitled Pathway" created="1393354945644"
@@ -825,6 +826,6 @@
     </PathwayList>
     <date>2014-02-25</date>
     <modelVersion>6</modelVersion>
-    <saveLocation>C:\temp\ROH\media</saveLocation>
-    <saveFile>C:\temp\ROH\media\3.roh-organization.vue</saveFile>
+    <saveLocation>C:\temp\roh-updated\ROH\media</saveLocation>
+    <saveFile>C:\temp\roh-updated\ROH\media\3.roh-organization.vue</saveFile>
 </LW-MAP>
