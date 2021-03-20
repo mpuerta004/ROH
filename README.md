@@ -260,8 +260,8 @@ The following table illustrates the object and data properties associated to ent
 
 ![](.//media/4.roh-funding-table.png) 
 
-![A picture containing text, map Description automatically
-generated](.//media/4.roh-funding.png)
+![](.//media/4.roh-funding.png)
+
 
 **Figura** **6**. Ontological diagram for Funding.
 
@@ -286,17 +286,12 @@ On the other hand roh:Dossier represents a collection of reports related to a vi
 
 The below tables show the data and object properties, as well as subclasses, of entity roh:ResearchObject.
 
-![](.//media/5.roh-research-object-table.png) 
+![](.//media/5.roh-research-object-table-part0.png) 
+![](.//media/5.roh-research-object-table-part1.png) 
+![](.//media/5.roh-research-object-table-part2.png) 
+![](.//media/5.roh-research-object-table-part3.png) 
 
-
-![A picture containing text, map Description automatically
-generated](.//media/5.roh-research-object-table-part0)
-![A picture containing text, map Description automatically
-generated](.//media/5.roh-research-object-table-part1)
-![A picture containing text, map Description automatically
-generated](.//media/5.roh-research-object-table-part2)
-![A picture containing text, map Description automatically
-generated](.//media/5.roh-research-object-table-part3)
+![](.//media/5.roh-research-object.png)
 
 **Figura** **7**. Ontological diagram for ResearchObject.
 
