@@ -278,7 +278,7 @@ Two entities worth mentioning that belong to the hierarchy of classes associated
 
 On the other hand `roh:Dossier` represents a collection of reports related to a `vivo:Project`, which may include all the types of reports above mentioned.
 
-The below tables show the data and object properties, as well as subclasses, of entity roh:ResearchObject.
+The below tables show the data and object properties, as well as subclasses, of entity `roh:ResearchObject`.
 
 ![](.//media/5.roh-research-object-table-part0.png) 
 ![](.//media/5.roh-research-object-table-part1.png) 
