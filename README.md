@@ -226,6 +226,7 @@ Besides, an instance of a `foaf:Organization` is associated to the following ent
 - `roh:FundingAmount` where an organization may receive several funding amounts part of a `roh:Funding` through `roh:grants` object property.
 - `vcard:Organization`, where an organization `roh:hasContactInfo` described through ontology vcard.
 - `roh:Reservable`, where an organization may `roh:hasReservable`, belonging to any of its subclasses, e.g. `roh:Equipment`, `roh:Facility` or `obo-ero:ERO_0000071` (Software).
+- `roh:PatentApplication` or `bibo:Patent` where an organization is the owner `(roh:ownerOrganizationOf`) of different patent applications or granted patents. Notice that a `roh:PatentApplication` goes through different status (`roh:patentStatus`) and is associated with a granted patent (`bibo:Patent`), only when its status passes to be `roh:Accepted`, through object property (`roh:hasPatent`).
 - `foaf:Organization`, where an organization may be linked through `vivo:hasSucessorOrganization` or `vivo:hasPredecessorOrganization` with another `foaf:Organization` or may be part of (`obo-ro:BFO_0000050`) or include `obo-ro:BFO_0000051` (has part) other several `foaf:Organization`s.
 - `obo-ero:ERO_0000005` (Service), where an organization `roh:provides` several services, e.g. `obo-ero:ERO_0000392` (Storage Service)
 
