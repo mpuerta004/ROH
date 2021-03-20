@@ -69,8 +69,7 @@ import and extension.
 | **obo-bfo** | OBO Foundry, Basic Formal Ontology | Creative Commons Attribution License 4.0 | http://www.obofoundry.org/ontology/bfo.html |
 | **obo-ero** | OBO Foundry, eagle-i Research Resource Ontology (ERO) | Creative Commons Attribution License 4.0 | https://open.catalyst.harvard.edu/wiki/display/eaglei/Ontology |
 | **obo-iao** | OBO Foundry, Information Artifact Ontology | Creative Commons Attribution License 4.0 | https://github.com/information-artifact-ontology/IAO/ |
-| **obo-ro** | OBO Foundry, Relations Ontology | Creative Commons Attribution License 4.0 | http://www.obofoundry.org/ontology/ro.html
- |
+| **obo-ro** | OBO Foundry, Relations Ontology | Creative Commons Attribution License 4.0 | http://www.obofoundry.org/ontology/ro.html |
 | **rdfs** | RDF Schema | Creative Commons Attribution License 4.0 | [http://www.w3.org/2000/01/rdf-schema#](http://www.w3.org/2000/01/rdf-schema) |
 | **roh** | Red de Ontologías Hercules | Creative Commons Attribution License 4.0 | [http://purl.org/roh](http://purl.org/roh) |
 | **skos** | SKOS Simple Knowledge Organization System RDF Schema | Creative Commons Attribution License 4.0 | [http://www.w3.org/2004/02/skos/core#](http://www.w3.org/2004/02/skos/core) |
