@@ -49,6 +49,7 @@ Notice that ROH network of ontologies is divided into 2 [main parts](https://git
 - A set of **vertical modules** which include, on one hand, specializations of some academic concepts for a given country domain. For instance, the figure Associate Professor in the Spanish academic domain would be encountered in the vertical module `university-HR-es` and is assigned the URI `http://purl.org/roh/university-hr/es#ProfesorTitularDeUniversidad`. On the other hand, these vertical modules, include controlled vocabularies, according to SKOS ontology, for different important areas in the academic domain, namely, geographical locations (`geopolitical`) , knowledge areas (including concepts for `scientific-domains`, `subject-areas` or `unesco-codes`), classification of project types (`project-classification`), resource positions in universities (`university-HR` for Spain, UK or Portugal), controlled vocabulary with all universities in Spain (`university-structure`) or some extensions for the Spanish university system (extensions-es).
 
 ![](.//media/ROH-core-vertical-modules.png)
+**Figura**  **1**. Hierarchical module structure of ROH network of ontologies.
 
 To incorporate [specific modules](https://github.com/HerculesCRUE/ROH/tree/main/sigmaaie/modules) to the ontology, it is enough to create a new ontology, import the required higher level ontology entities and create the new classes or properties needed. Both classes and properties can be integrated within the existing hierarchy in the imported ontology. Let's say, for example, that a new university (e.g. University of Castilla La-Mancha) wants to make use of ROH and needs to add a series of positions of its own through which to classify research technicians. To do this, you can import the core ontology, and under `vivo:Position`, in which the hierarchies for the typical university positions appear, create your own as subclasses.
 
@@ -117,7 +118,7 @@ The process followed to design an ontology that models a Research Management Sys
 **<a name="headSection2"></a>2. Conceptual diagram of ontology ROH**
 ====================================================================
 
-Figura 1 shows the main entities modelled in the Hercules Ontology
+Figura 2 shows the main entities modelled in the Hercules Ontology
 Network (HON in English, ROH-Red de Ontologías Hércules in Spanish).
 Note that in the diagram, the arrows with a filled tip denote kinship
 (inheritance) relationships while the arrows that end in a non-filled
@@ -128,12 +129,10 @@ entities in ROH have geographic (class Geonames:Feature) and temporal
 
 ![](.//media/ROH-high-level-diagram.png)
 
-**Figura** **1**. High level diagram of ROH --Red de Ontologías
+**Figura** **2**. High level diagram of ROH --Red de Ontologías
 Hércules.
 
 Notice that section 3 of the [ROH Ontology Specification document](https://github.com/HerculesCRUE/GnossDeustoOnto/blob/master/Documentation/0%20-%20OntologySpecification.pdf) includes a detailed discussion on how entities modelled in ROH have been imported and aligned with other existing entities in widely adopted ontologies that have successfully modelled parts of the Academic domain. 
-
-**Figura**  **2**. Hierarchical module structure of ROH network of ontologies.
 
 
 **<a name="headSection3"></a>3. Project entity**
