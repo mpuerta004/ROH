@@ -86,8 +86,7 @@ When designing and developing the ontology, priority has been given to its flexi
 
 In the same way, and to avoid explicit declaration of hierarchies, a series of Defined Classes have been defined. A Defined Class is a class that cannot be an instance directly, but rather, an instance will belong to it only if it complies with a series of restrictions. These classes have been used to define, for example, when an organization is a Funding Organization. Instead of having to explicitly define the organization as a Funding Organization, the organization will be defined with its corresponding class (University, Research Organization, Government Agency, etc.) and in the event that it meets a series of restrictions, in this case, being a funder of some call, the OWL reasoner will automatically classify it as a Funding Organization.
 
-![](.//media/restrictions0.png)
-![](.//media/restrictions1.png)
+![](.//media/restrictions.png)
 
 When implementing this ontology, the reuse of ontologies has been prioritized, thus allowing the compatibility of the data represented through ROH with other data represented through other ontologies. 
 
